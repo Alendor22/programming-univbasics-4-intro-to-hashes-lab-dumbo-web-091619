@@ -15,10 +15,9 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator = {:name => "Grace Hopper"}
-  if my_hash_creator[:name]
-  else my_hash_creator[:name] = "Grace Hopper"
-  end 
+  my_hash_creator = {}
+  key = :name
+  value = "Grace Hopper"
 end
 
 def read_from_hash(hash, key)
