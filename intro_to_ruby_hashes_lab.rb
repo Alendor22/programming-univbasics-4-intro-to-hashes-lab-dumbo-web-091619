@@ -16,8 +16,6 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {}
-  key = :name
-  value = "Grace Hopper"
 end
 
 def read_from_hash(hash, key)
